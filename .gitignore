@@ -1,13 +1,50 @@
-.venv/
+# ==========================================
+# Count By Peter
+# ==========================================
 
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
 
-*.pyc
+# Virtual Environment
+.venv/
+venv/
+env/
 
-logs/
-
-data/
-
-.vscode/
-
+# Environment Variables
 .env
+
+# Database
+data/
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Bytecode
+*.pyo
+*.pyd
+
+# OpenCV temp
+*.avi
+*.mp4
